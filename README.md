@@ -5,7 +5,7 @@ This project allows you to access the full content of Wikipedia anywhere on the 
 * Multiple concurrent languages
 * **Full-text** and exact search on article titles
 * **Case insensitive** and **diacritic-insensitive** search (searching for internationalisation will match articles containing IñtërnâtïôÑàlizãtiøn in their title)
-* **Images** Including thumbs, inline, and galleries! More info in ImageSupport
+* **Images** Including thumbs, inline, and galleries!
 * Full **UTF-8 support** including CJK (Chinese, Japanese, Korean)
 * Great parser (reuses a former semi-official wikimedia parser) Most of the wiki grammar supported:
     - References
@@ -30,13 +30,13 @@ This project allows you to access the full content of Wikipedia anywhere on the 
 
 See for yourself:
 
-![Welcome](http://yjouanique.free.fr/iphonepedia/welcome.png)
-![Paris](http://yjouanique.free.fr/iphonepedia/paris.png)
-![Screen 1](http://yjouanique.free.fr/iphonepedia/Screen1.png)
-![Math](http://yjouanique.free.fr/iphonepedia/math.png)
-![Aiacciu](http://yjouanique.free.fr/iphonepedia/aiacciu.png)
-![Gallery](http://yjouanique.free.fr/iphonepedia/gallery.png)
-![Pano](http://yjouanique.free.fr/iphonepedia/pano.png)
-![Torra](http://yjouanique.free.fr/iphonepedia/torra.png)
-![Arabic](http://yjouanique.free.fr/iphonepedia/arabic.png)
-![CJK](http://yjouanique.free.fr/iphonepedia/CJK1.png)
+![Welcome](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/welcome.png)
+![Paris](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/paris.png)
+![Screen 1](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/Screen1.png)
+![Math](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/math.png)
+![Aiacciu](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/aiacciu.png)
+![Gallery](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/gallery.png)
+![Pano](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/pano.png)
+![Torra](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/torra.png)
+![Arabic](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/arabic.png)
+![CJK](https://raw.githubusercontent.com/yannouchou/iphonepedia/master/about/CJK1.png)
