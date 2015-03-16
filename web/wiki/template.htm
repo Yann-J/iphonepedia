@@ -1,0 +1,88 @@
+<!--
+
+    This is default template file for RiSearch PHP 0.1
+    (c) Sergej Tarasov, 2000-2002
+    Homepage: http://risearch.org/
+    email: risearch@risearch.org
+
+    Edit this file as desired.
+
+    The file consist of 7 sections
+
+    1. "header"
+    2. "results_header"
+    3. "results"
+    4. "results_footer"
+    5. "no_results"
+    6. "empty_query"
+    7. "footer"
+
+-->
+
+<!-- RiSearch::header::start -->
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width = 600" name="viewport"/>
+<meta content="user-scalable=yes" name="viewport"/>
+<link charset="utf-8" media="screen" type="text/css" href="res/wikipedia.css" rel="stylesheet"/>
+<title>%windowtitle%</title>
+<script language="JavaScript">
+<!--
+function setfocus() {
+  //document.forms[0].query.focus();
+  window.scrollTo(0, 1);
+}
+// -->
+</script>
+
+</head>
+<body onLoad="setfocus()">
+<div id='content'>
+<FORM ACTION="search.php" METHOD="GET" accept-charset="UTF-8">
+<div align='center'>
+<a name="TOP"><img src="res/white.png" /></a>
+<INPUT TYPE="Text" NAME="query" SIZE="15" VALUE="%query%">
+<INPUT TYPE="Submit" VALUE="Search">
+<INPUT TYPE="Hidden" NAME="stpos" VALUE="0">
+%selectbox%
+</div>
+</FORM>
+
+<!-- RiSearch::header::end -->
+
+
+<!-- RiSearch::results_header::start -->
+Found %rescount% results for %query%<br />
+%exactmatch%
+<OL START="%stpos%">
+<!-- RiSearch::results_header::end -->
+
+
+<!-- RiSearch::results::start -->
+<LI><A HREF="%url%">%title%</A></LI>
+<!-- RiSearch::results::end -->
+
+
+<!-- RiSearch::results_footer::start -->
+</OL>
+<BR><center><small>%next_results%</small></center>
+<!-- RiSearch::results_footer::end -->
+
+
+<!-- RiSearch::no_results::start -->
+<BR>No result found for '%query%'
+<!-- RiSearch::no_results::end -->
+
+
+<!-- RiSearch::empty_query::start -->
+<BR>Enter query
+<!-- RiSearch::empty_query::end -->
+
+
+<!-- RiSearch::footer::start -->
+</div>
+</body>
+</html>
+<!-- RiSearch::footer::end -->
+
