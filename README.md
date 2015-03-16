@@ -1,3 +1,6 @@
+# WARNING: Project is deprecated
+This project was fully functional but was discontinued in 2008 when Apple released a native SDK. I've just moved it from Google Code since it's shutting down, and am keeping it here mostly out of nostalgia :)
+
 This project allows you to access the full content of Wikipedia anywhere on the planet with your iPhone / iPod Touch.
 
 # Features
